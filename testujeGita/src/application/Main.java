@@ -14,6 +14,7 @@ public class Main extends Application {
 			StackPane stackPane = new StackPane();
 			Button button = new Button("DZIALA");
 			stackPane.getChildren().add(button);
+			stackPane.setPrefSize(400, 400);
 			Scene scene = new Scene(stackPane);
 			scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
 			primaryStage.setScene(scene);
